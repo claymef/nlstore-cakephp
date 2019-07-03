@@ -1,0 +1,125 @@
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Almacenes"
+msgstr "Depósitos"
+
+msgid "Almacen"
+msgstr "Depósito"
+
+msgid "Prendas"
+msgstr "Vestuário"
+
+msgid "Prenda"
+msgstr "Vestuário"
+
+msgid "Facturas"
+msgstr "Contas"
+
+msgid "Factura"
+msgstr "Conta"
+
+msgid "Detalles de Venta"
+msgstr "Detalhes de Venda"
+
+msgid "first"
+msgstr "primeiro"
+
+msgid "previous"
+msgstr "anterior"
+
+msgid "next"
+msgstr "seguindo"
+
+msgid "last"
+msgstr "último"
+
+msgid "Page {{page}} of {{pages}}"
+msgstr "Página {{page}} de {{pages}}"
+
+msgid "Usuarios"
+msgstr "Usuários"
+
+msgid "Usuario"
+msgstr "Usuário"
+
+msgid "Nombre"
+msgstr "Nome"
+
+msgid "Apellido"
+msgstr "Sobrenome"
+
+msgid "Telefono"
+msgstr "Telefone"
+
+msgid "Precio"
+msgstr "Preco"
+
+msgid "Cantidad"
+msgstr "Quantidade"
+
+msgid "Correo Electrónico"
+msgstr "Correio Electrônico"
+
+msgid "Contraseña"
+msgstr "Password"
+
+msgid "Estatus"
+msgstr "Status"
+
+msgid "Creación"
+msgstr "Criação"
+
+msgid "Modificación"
+msgstr "Modificação"
+
+msgid "Acciones"
+msgstr "Ações"
+
+msgid "Editar"
+msgstr "Edite"
+
+msgid "Inicio"
+msgstr "Lar"
+
+msgid "Lista de Usuarios"
+msgstr "Lista de Usuários"
+
+msgid "Crear Usuario"
+msgstr "Criar usuário"
+
+msgid "Crear Cliente"
+msgstr "Criar Cliente"
+
+msgid "Lista de Almacenes"
+msgstr "Lista de Depósitos"
+
+msgid "Crear Almacen"
+msgstr "Criar Depósito"
+
+msgid "Crear Modelo"
+msgstr "Criar Modelo"
+
+msgid "Lista de Prendas"
+msgstr "Lista de Vestuário"
+
+msgid "Crear Prenda"
+msgstr "Criar Vestuário"
+
+msgid "Lista de Facturas"
+msgstr "Lista de Contas"
+
+msgid "Crear Factura"
+msgstr "Criar Contas"
+
+msgid "Lista de Detalles de Venta"
+msgstr "Lista de Detalhes de Venda"
+
+msgid "Crear Detalle de Venta"
+msgstr "Crear Detalhes de Venda"
+
+msgid "Editar Usuario"
+msgstr "Edite Usuário"
+
+msgid "Rol"
+msgstr "Papel"

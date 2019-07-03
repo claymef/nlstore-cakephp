@@ -1,0 +1,17 @@
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "first"
+msgstr "primer"
+
+msgid "previous"
+msgstr "anterior"
+
+msgid "next"
+msgstr "siguiente"
+
+msgid "last"
+msgstr "ultimo"
+
+msgid "Page {{page}} of {{pages}}"
+msgstr "Página {{page}} de {{pages}}"

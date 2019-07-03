@@ -1,0 +1,134 @@
+msgid "Usuarios"
+msgstr "Users"
+
+msgid "Usuario"
+msgstr "User"
+
+msgid "Clientes"
+msgstr "Customers"
+
+msgid "Cliente"
+msgstr "Customer"
+
+msgid "Almacenes"
+msgstr "Warehouses"
+
+msgid "Almacen"
+msgstr "Warehouse"
+
+msgid "Modelos"
+msgstr "Models"
+
+msgid "Modelo"
+msgstr "Model"
+
+msgid "Prendas"
+msgstr "Garments"
+
+msgid "Prenda"
+msgstr "Garment"
+
+msgid "Facturas"
+msgstr "Invoices"
+
+msgid "Factura"
+msgstr "Invoice"
+
+msgid "Detalles de Venta"
+msgstr "Sale Details"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Apellido"
+msgstr "Surname"
+
+msgid "Sexo"
+msgstr "Sex"
+
+msgid "Precio"
+msgstr "Price"
+
+msgid "Cantidad"
+msgstr "Quantity"
+
+msgid "Telefono"
+msgstr "Telephone"
+
+msgid "Correo Electrónico"
+msgstr "Email"
+
+msgid "Contraseña"
+msgstr "Password"
+
+msgid "Estatus"
+msgstr "Status"
+
+msgid "Creación"
+msgstr "Created"
+
+msgid "Modificación"
+msgstr "Modificated"
+
+msgid "Acciones"
+msgstr "Actions"
+
+msgid "Ver"
+msgstr "View"
+
+msgid "Editar"
+msgstr "Edit"
+
+msgid "Eliminar"
+msgstr "Delete"
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Lista de Usuarios"
+msgstr "Users List"
+
+msgid "Crear Usuario"
+msgstr "Add User"
+
+msgid "Lista de Clientes"
+msgstr "Customers List"
+
+msgid "Crear Cliente"
+msgstr "Add Customer"
+
+msgid "Lista de Almacenes"
+msgstr "Warehouses List"
+
+msgid "Crear Almacen"
+msgstr "Add Warehouse"
+
+msgid "Lista de Modelos"
+msgstr "Models List"
+
+msgid "Crear Modelo"
+msgstr "Add Model"
+
+msgid "Lista de Prendas"
+msgstr "Garments List"
+
+msgid "Crear Prenda"
+msgstr "Add Garment"
+
+msgid "Lista de Facturas"
+msgstr "Invoices List"
+
+msgid "Crear Factura"
+msgstr "Add Invoice"
+
+msgid "Lista de Detalles de Venta"
+msgstr "Sale Details List"
+
+msgid "Crear Detalle de Venta"
+msgstr "Add Sale Detail"
+
+msgid "Editar Usuario"
+msgstr "Edit User"
+
+msgid "Rol"
+msgstr "Role"
