@@ -1,0 +1,21 @@
+#button {
+	padding: 0;
+	width: 50000px;
+}
+#button li {
+	display: inline;
+}
+#button li a {
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #FA6E1E;
+	color: #fff;
+}
+body {
+	background-image: url("nlfondo.jpg");
+	background-repeat: repeat;
+
+}
