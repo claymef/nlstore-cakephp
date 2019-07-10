@@ -15,6 +15,7 @@
             <th scope="row"><?= __('Creación') ?></th>
             <td><?= h($factura->created) ?></td>
         </tr>
+
     </table>
     <div class="page-header">
         <h3><?= __('Detalles de Venta') ?></h3>
@@ -47,6 +48,7 @@
                 </td>
             </tr>
             <?php endforeach; ?>
+            <?= $this->Form->postbutton(__('Crear Detalle de Venta'),['controller' => 'Detalleventa', 'action' => 'add']); ?>
         </table>
         <?php endif; ?>
     </div>

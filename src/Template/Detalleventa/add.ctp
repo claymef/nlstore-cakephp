@@ -5,7 +5,7 @@
     <div>
         <?= $this->Form->create($detalleventum) ?>
         <fieldset>
-            <legend><?= __('Add Detalleventum') ?></legend>
+            
             <?php
                 echo $this->Form->control('factura_id', ['label'=>__('Factura'),'options' => $facturas, 'empty' => '--Seleccione--']);
                 echo $this->Form->control('prenda_id', ['label'=>__('Prenda'),'options' => $prendas, 'empty' => '--Seleccione--']);

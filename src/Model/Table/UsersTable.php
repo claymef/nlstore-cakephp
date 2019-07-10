@@ -72,6 +72,10 @@ class UsersTable extends Table
             ->requirePresence('user_dni', 'create')
             ->notEmpty('user_dni', 'A dni is required')
             ->add('user_dni', [
+                'number' => [
+                    'rule' => ['range', 0, 100000000],
+                    'message' => 'Por favor ingrere una cantidad correcta.'
+                ],
                 'minLength' => [
                     'rule' => ['minLength', 8],
                     'last' => true,

@@ -117,7 +117,7 @@ class DetalleventaController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
-    public function isAuthorized($prenda)
+    public function isAuthorized($detalleventa)
     {
         if ($this->request->getParam('action') === 'add') {
             return true;
@@ -125,11 +125,11 @@ class DetalleventaController extends AppController
 
         if (in_array($this->request->getParam('action'), ['edit', 'delete'])) {
             $detalleId = (int)$this->request->getParam('pass.0');
-            if ($this->Detalleventa->isOwnedBy($detalleId, $prenda['prenda_id'])) {
+            if ($this->Detalleventa->isOwnedBy($detalleId)) {
                 return true;
             }            
         }
 
-        return parent::isAuthorized($prenda);
+        return parent::isAuthorized($detalleventa);
     }
 }

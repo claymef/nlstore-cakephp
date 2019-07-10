@@ -67,7 +67,7 @@ class AppController extends Controller
                 'controller' => 'Users',
                 'action' => 'login'
             ],
-            
+                        
             // If unauthorized, return them to page they were just on
             'unauthorizedRedirect' => $this->referer()
         ]);        

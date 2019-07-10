@@ -67,12 +67,24 @@ class DetalleventaTable extends Table
         $validator
             ->integer('detalle_cantidad')
             ->requirePresence('detalle_cantidad', 'create')
-            ->notEmptyString('detalle_cantidad', 'A cant is required');
+            ->notEmptyString('detalle_cantidad', 'A cant is required')
+            ->add('detalle_cantidad', [
+                'number' => [
+                    'rule' => ['range', 1, 100],
+                    'message' => 'Por favor ingrere una cantidad correcta.'
+                ]
+            ]);
 
         $validator
             ->decimal('detalle_precio')
             ->requirePresence('detalle_precio', 'create')
-            ->notEmptyString('detalle_precio', 'A price is required');
+            ->notEmptyString('detalle_precio', 'A price is required')
+            ->add('detalle_precio', [
+                'salary' => [
+                    'rule' => ['money', 'left'],
+                    'message' => 'Por favor ingrere una cantidad monetaria válida.'
+                ]
+            ]);
 
         return $validator;
     }
@@ -91,8 +103,8 @@ class DetalleventaTable extends Table
 
         return $rules;
     }
-    public function isOwnedBy($detalleId, $prendaId)
+    public function isOwnedBy($detalleId)
     {
-        return $this->exists(['detalle_id' => $detalleId, 'prenda_id' => $prendaId]);
+        return $this->exists(['detalle_id' => $detalleId]);
     }
 }
